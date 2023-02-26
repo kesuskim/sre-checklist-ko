@@ -2,12 +2,11 @@
 <img src="images/sre_checklist.png"/>
 </p>
 
-:dart: **Repository Purpose**: Provide teams and individuals an idea on what to take into consideration and what to aspire for in the SRE field and work
+:dart: **이 레포지토리의 목적**: 사이트 신뢰성 엔지니어링(Site Reliability Engineering; 이하 SRE) 분야 및 업무에서 팀, 혹은 개인이 고려해야 할 사항과 지향해야 할 사항에 대한 아이디어의 제공
 
-**Note**: these checklists are **opinionated**. They are based on my own opinion and experience and are not universal truth (duh! :smile:).
-So you should definitely doubt anything you read here and you are more than welcome to add your own opinion on the matter, by starting a discussion or proposing a change to the project
+**참고**: 본 체크리스트는 **편향적** 입니다. 이는 저자의 의견과 경험을 기반으로 작성되었으며, 특정 상황에는 적용되지 않을 수 있습니다 (앗..! :sweat_smile: ). 그러므로 여기서 읽으신 것들을 스스로 고민해보시고, 변경해야 할 것이 있다면 언제든지 여러분의 생각을 이슈로 등록하여 주세요.
 
-:construction: You may say this repository is still in progress. I wouldn't treat it as complete source at this point or anything close to that. Contributions are more than welcome!
+:construction: 이 레포지토리는 아직 작업 중입니다. 완성될 수 있도록 도움 부탁바랍니다!
 
 
 <!-- ALL-TOPICS-LIST:START -->
@@ -82,20 +81,20 @@ So you should definitely doubt anything you read here and you are more than welc
     - [Cloud](#cloud-1)
     - [Secrets](#secrets)
 
-## Team
+## 팀
 
-### Responsibilities
+### 책임 (Responsibilities)
 
-- [ ] **Decide on responsibilities**
-  - Common
-    - [ ] Infrastructure management
-    - [ ] Monitoring
-    - [ ] Incident Management
-    - [ ] Infra and Reliability related automation
-  - [ ] Arguable
-    - [ ] App Performance - Arguable because some organizations treat it as dev responsibility
-- [ ] **Documented/Written**
-  - Make sure to write down the responsibilities of the team somewhere. That will be useful for many things like new members joining, recruiting, clarity for the organization and more.
+- [ ] **책임 소재에 대한 결정**
+  - 공통사항
+    - [ ] 인프라 관리
+    - [ ] 모니터링
+    - [ ] 인시던트 관리
+    - [ ] 인프라와 관련된 신뢰성 제공을 위한 자동화
+  - [ ] 선택사항
+    - [ ] 애플리케이션의 성능 (일부 조직에서는 이를 개발 단계에서의 책임으로 보기 때문에 조직에 맞게 선택합니다)
+- [ ] **문서화/서면 작성**
+  - 팀의 책임 소재를 어딘가에 적어 두세요. 이는 새로운 팀원의 합류, 채용, 조직에 대한 명확성 등 여러 가지 일에 유용합니다.
 
 ### Skills
 
